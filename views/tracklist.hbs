@@ -1,0 +1,10 @@
+<h1> Lista de pistas </h1>
+
+{{#each trackList}}
+    <p>
+        {{this.name}}
+        <audio controls>
+            <source src="{{this.preview_url}}">
+        </audio>
+    </p>
+{{/each}}
