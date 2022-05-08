@@ -1,0 +1,71 @@
+body {
+    margin: 0 auto;
+}
+
+#divHome {
+    height: 100vh;
+    background-image: url("../images/spotify-background.jpeg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#searchArtist {
+    background-color: white;
+    background: rgba(255, 255, 255, 0.63);
+    width: 50%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#artistName {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#searchButton {
+    color: white;
+    background-color: red;
+    padding: 10px;
+    border: none;
+}
+
+.listArtists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.eachArtist {
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.eachArtist p a {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 6px;
+}
+
+.textAndLink {
+    width: 200px;
+    color:white;
+    height: 80px;
+    text-align: center;
+    background-color: gray;
+    
+}
+
+#textAndLink p {
+    margin-top: 3px;
+}
